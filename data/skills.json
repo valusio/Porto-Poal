@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "Frontend",
+      "skills": ["React", "Next.js", "JavaScript", "TypeScript", "Vue.js", "Blade", "Tailwind CSS"]
+    },
+    {
+      "name": "Backend",
+      "skills": ["Laravel (PHP)", "Node.js", "Python", "REST API", "Webhooks"]
+    },
+    {
+      "name": "Database",
+      "skills": ["PostgreSQL", "MySQL", "Prisma", "SQL"]
+    },
+    {
+      "name": "AI & Automation",
+      "skills": ["LLM Integration", "Prompt Engineering", "NLP", "n8n", "WhatsApp HTTP API (WAHA)", "Machine Learning", "Data Preprocessing", "Pandas", "Scikit-learn"]
+    },
+    {
+      "name": "Data",
+      "skills": ["Microsoft Power BI", "Matplotlib"]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "skills": ["Docker", "Docker Compose", "VPS", "Git/GitHub", "CI/CD", "AWS (S3, CloudFront, Lambda, SES, ACM)"]
+    }
+  ]
+}
