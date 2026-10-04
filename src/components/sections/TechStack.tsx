@@ -1,11 +1,11 @@
-import { getSkills } from "@/lib/data";
+import { Locale, getSkills } from "@/lib/data";
 import { SECTIONS } from "@/lib/constants";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { AnimateOnScroll } from "@/components/shared/AnimateOnScroll";
 import { SkillBadge } from "@/components/shared/SkillBadge";
 
-export function TechStack() {
-  const skills = getSkills();
+export function TechStack({ lang }: { lang: Locale }) {
+  const skills = getSkills(lang);
 
   return (
     <section id={SECTIONS.skills} className="section-padding content-container">

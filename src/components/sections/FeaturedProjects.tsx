@@ -1,11 +1,11 @@
-import { getFeaturedProjects } from "@/lib/data";
+import { Locale, getFeaturedProjects } from "@/lib/data";
 import { SECTIONS } from "@/lib/constants";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { AnimateOnScroll } from "@/components/shared/AnimateOnScroll";
 import { ProjectCard } from "@/components/shared/ProjectCard";
 
-export function FeaturedProjects() {
-  const projects = getFeaturedProjects();
+export function FeaturedProjects({ lang }: { lang: Locale }) {
+  const projects = getFeaturedProjects(lang);
 
   return (
     <section id={SECTIONS.projects} className="section-padding content-container">
@@ -19,7 +19,7 @@ export function FeaturedProjects() {
       <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
         {projects.map((project, idx) => (
           <AnimateOnScroll key={project.slug} delay={0.1 * (idx % 2)}>
-            <ProjectCard project={project} />
+            <ProjectCard project={project} lang={lang} />
           </AnimateOnScroll>
         ))}
       </div>

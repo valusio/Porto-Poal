@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Fullstack Artificial Intelligence Integration",
+    "provider": "Skill Academy by Ruangguru",
+    "startDate": "2024-11",
+    "endDate": "2025-03",
+    "proofIds": []
+  },
+  {
+    "title": "Pelatihan Dasar Microsoft Power BI",
+    "provider": "Mita Training x Mita Institute",
+    "startDate": "2026-09",
+    "endDate": "2028-09",
+    "credentialId": "B00066/MI12/MIB/2026/000026",
+    "link": "/certificates/sertifikat-power-bi-mita.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Claude Advanced Workflows",
+    "provider": "Tixu.ai",
+    "startDate": "2026-10",
+    "endDate": "2028-10",
+    "credentialId": "3be0aa0c-2a2165-90e9-55-6860e28cff03",
+    "description": "Mastering complex prompt chaining, multi-step LLM workflows, and advanced agentic system orchestration using Claude.",
+    "link": "/certificates/claude-advanced-workflows.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Claude Vibe Coding",
+    "provider": "Tixu.ai",
+    "startDate": "2026-10",
+    "endDate": "2028-10",
+    "credentialId": "a9f7ce38-2a2165-7eba-56-d6cf5db0a56b",
+    "description": "Accelerating full-stack development through conversational AI programming, rapid prototyping, and automated code generation.",
+    "link": "/certificates/claude-vibe-coding.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Advanced AI Agents: N8N",
+    "provider": "Tixu.ai",
+    "startDate": "2026-10",
+    "endDate": "2028-10",
+    "credentialId": "3af0515e-2a2165-60a9-11-d7c92e417dde",
+    "description": "Architecting autonomous AI agent workflows, integrating LLMs with external APIs, and complex automation pipelines via n8n.",
+    "link": "/certificates/advanced-ai-agents-n8n.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "AI Mastery",
+    "provider": "Tixu.ai",
+    "startDate": "2026-10",
+    "endDate": "2028-10",
+    "credentialId": "beea8851-2a2165-9ec1-40000005-365986638661",
+    "description": "Comprehensive foundation and practical implementation of cutting-edge generative AI tools and enterprise workflows.",
+    "link": "/certificates/ai-mastery.pdf",
+    "proofIds": []
+  }
+]

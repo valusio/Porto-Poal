@@ -1,11 +1,11 @@
-import { getExperiences } from "@/lib/data";
+import { Locale, getExperiences } from "@/lib/data";
 import { SECTIONS } from "@/lib/constants";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { AnimateOnScroll } from "@/components/shared/AnimateOnScroll";
 import { TimelineItem } from "@/components/shared/TimelineItem";
 
-export function Experience() {
-  const experiences = getExperiences();
+export function Experience({ lang }: { lang: Locale }) {
+  const experiences = getExperiences(lang);
 
   return (
     <section id={SECTIONS.experience} className="section-padding bg-muted/30">

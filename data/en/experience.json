@@ -1,0 +1,53 @@
+[
+  {
+    "id": "exp-nch",
+    "role": "Full-Stack Developer",
+    "organization": "Nagari Panti Selatan, Kab. Pasaman, West Sumatra",
+    "startDate": "2026-05",
+    "endDate": "2026-08",
+    "description": "End-to-end engineering and implementation of the Nagari Creative Hub (NCH) Rural MSME Digitalization Platform, a strategic initiative championed by the Vice Governor of West Sumatra.",
+    "highlights": [
+      "Owned the full software development lifecycle from conceptualization to production deployment",
+      "Engineered the application logic and CMS interface using the PHP ecosystem (Laravel Filament) backed by MySQL",
+      "Implemented a complex Role-Based Access Control (RBAC) system to decouple Admin and MSME User entities",
+      "Provisioned a Hostinger VPS with DNS configuration and SSL/TLS encryption for secure production deployment",
+      "Applied architectural SEO optimizations to empirically increase the digital discoverability of local products"
+    ],
+    "relatedProjectSlug": "nagari-creative-hub",
+    "proofIds": []
+  },
+  {
+    "id": "exp-bps",
+    "role": "AI & Automation Engineer",
+    "organization": "Badan Pusat Statistik (BPS) Kota Padang",
+    "startDate": "2026-01",
+    "endDate": "2026-03",
+    "description": "Architected NIPAD, an intelligent statistical service chatbot with a Zero Hallucination framework that automates public interactions and decentralizes clerical workloads.",
+    "highlights": [
+      "Built an end-to-end automated pipeline integrating the Google Gemini LLM and n8n workflow orchestration",
+      "Mitigated hallucination risks by exclusively grounding the AI agent on a headless database (Google Sheets)",
+      "Integrated WhatsApp HTTP API (WAHA) for 24/7 instantaneous citizen-facing service delivery",
+      "Guaranteed high availability through Docker-based containerization on a Hostinger VPS infrastructure",
+      "Successfully reduced manual interaction workloads by ~90% while achieving a 4.39-second average response latency"
+    ],
+    "relatedProjectSlug": "bps-chatbot",
+    "proofIds": []
+  },
+  {
+    "id": "exp-sippak",
+    "role": "Project Manager, Business Analyst, & Frontend Developer",
+    "organization": "Kantor Gubernur Sumatera Barat, Kota Padang",
+    "startDate": "2024-02",
+    "endDate": "2024-12",
+    "description": "Coordinated the development pipeline and engineered the frontend architecture for the SIPPAK Enterprise Personnel Information System.",
+    "highlights": [
+      "Led requirement-gathering to eliminate administrative inefficiencies in Periodic Salary Increase (KGB) and Rank Seniority List (DUK) workflows",
+      "Built a responsive personnel data dashboard using the Tailwind CSS utility framework and JavaScript interactivity",
+      "Orchestrated a Role-Based Access Control (RBAC) system in Laravel to segregate Admin and User operational capabilities",
+      "Implemented complex data conversion logic to automatically generate legal documents (PDF and Excel summaries) directly from MySQL",
+      "Drastically cut administrative latency, liberating bureaucratic resources from repetitive clerical tasks"
+    ],
+    "relatedProjectSlug": "sippak",
+    "proofIds": []
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "Poalca Valusio",
+  "tagline": "Full-Stack Engineer yang membangun sistem berskala pemerintahan dan otomatisasi AI",
+  "email": "yeahitspoll@gmail.com",
+  "location": "Padang, Sumatera Barat, Indonesia",
+  "availability": "Tersedia untuk Direkrut",
+  "summary": "Lulusan Ilmu Komputer dan Full-Stack Engineer peraih penghargaan yang berfokus pada arsitektur web yang dapat diskalakan dan otomatisasi AI. Diakui secara global sebagai Peraih Medali Emas (WICE) dan Medali Perak untuk Inovasi AI Kesehatan. Saya memiliki rekam jejak yang kuat dalam merancang sistem berskala enterprise dari awal hingga akhir - seperti infrastruktur SIPPAK untuk Pemerintah Provinsi Sumatera Barat dan agen AI tanpa halusinasi untuk layanan publik (BPS). Fasih dalam teknologi modern (React, Next.js, Laravel, Python, TypeScript) dan orkestrasi alur kerja (n8n, Docker), saya memadukan kemampuan teknis yang mendalam dengan pola pikir berbasis produk untuk mengubah hambatan operasional yang kompleks menjadi solusi digital cerdas dan berdampak tinggi.",
+  "photo": "/proof/Poal.webp",
+  "cv": "/cv.pdf",
+  "stats": [
+    { "value": "3", "label": "Sistem Produksi" },
+    { "value": "2", "label": "Medali Internasional" },
+    { "value": "3.38", "label": "IPK" }
+  ],
+  "socials": {
+    "github": "https://github.com/valusio",
+    "jobstreet": "https://id.jobstreet.com/id/profiles/poalca-valusio-124w5lppt4",
+    "portfolio": "https://portofolio-poalca.ahwlab.id/"
+  }
+}

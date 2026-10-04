@@ -1,0 +1,20 @@
+{
+  "name": "Poalca Valusio",
+  "tagline": "Full-Stack Engineer building government-grade systems and AI automation",
+  "email": "yeahitspoll@gmail.com",
+  "location": "Padang, West Sumatra, Indonesia",
+  "availability": "Available for Hire",
+  "summary": "Computer Science graduate and award-winning Full-Stack Engineer specializing in scalable web architectures and AI automation. Globally recognized as a Gold Medalist (WICE) and Silver Medalist for AI Health Innovation. I possess a strong track record of designing enterprise-grade systems from end-to-end - such as the SIPPAK infrastructure for the West Sumatra Provincial Government and zero-hallucination AI agents for public service (BPS). Fluent in the modern stack (React, Next.js, Laravel, Python, TypeScript) and workflow orchestration (n8n, Docker), I combine deep technical rigor with a product-driven mindset to transform complex operational bottlenecks into intelligent, high-impact digital solutions.",
+  "photo": "/proof/Poal.webp",
+  "cv": "/cv.pdf",
+  "stats": [
+    { "value": "3", "label": "Production Systems" },
+    { "value": "2", "label": "International Medals" },
+    { "value": "3.38", "label": "GPA" }
+  ],
+  "socials": {
+    "github": "https://github.com/valusio",
+    "jobstreet": "https://id.jobstreet.com/id/profiles/poalca-valusio-124w5lppt4",
+    "portfolio": "https://portofolio-poalca.ahwlab.id/"
+  }
+}

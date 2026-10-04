@@ -1,8 +1,8 @@
 import { SITE_CONFIG } from "@/lib/constants";
-import { getProfile } from "@/lib/data";
+import { Locale, getProfile } from "@/lib/data";
 
-export function JsonLd() {
-  const profile = getProfile();
+export function JsonLd({ lang }: { lang: Locale }) {
+  const profile = getProfile(lang);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -11,7 +11,7 @@ export function JsonLd() {
     jobTitle: "Full-Stack Engineer",
     url: SITE_CONFIG.url,
     image: `${SITE_CONFIG.url}${profile.photo}`,
-    sameAs: [profile.socials.github, profile.socials.linkedin].filter(
+    sameAs: [profile.socials.github, profile.socials.jobstreet].filter(
       (url) => url && !url.includes("[TODO")
     ),
     email: profile.email,

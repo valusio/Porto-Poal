@@ -1,11 +1,11 @@
-import { getProfile } from "@/lib/data";
+import { Locale, getProfile } from "@/lib/data";
 import { SECTIONS } from "@/lib/constants";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { AnimateOnScroll } from "@/components/shared/AnimateOnScroll";
 import { MapPin, Mail, Calendar } from "lucide-react";
 
-export function About() {
-  const profile = getProfile();
+export function About({ lang }: { lang: Locale }) {
+  const profile = getProfile(lang);
 
   return (
     <section id={SECTIONS.about} className="section-padding bg-muted/30">

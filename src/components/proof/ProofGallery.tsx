@@ -28,7 +28,7 @@ export function ProofGallery({ items }: ProofGalleryProps) {
             }}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={item.src} alt={item.alt} className="aspect-video w-full object-cover" />
+            <img src={item.src} alt={item.alt} className="aspect-video w-full object-cover object-top" />
             <span className="absolute inset-x-0 bottom-0 translate-y-full bg-black/70 px-3 py-2 text-left text-xs text-white transition-transform duration-300 group-hover:translate-y-0">
               {item.caption}
             </span>

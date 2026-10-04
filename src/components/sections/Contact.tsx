@@ -1,12 +1,12 @@
-import { getProfile } from "@/lib/data";
+import { Locale, getProfile } from "@/lib/data";
 import { SECTIONS } from "@/lib/constants";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { AnimateOnScroll } from "@/components/shared/AnimateOnScroll";
 import { ContactForm } from "@/components/shared/ContactForm";
 import { Mail, Code2, Globe, ExternalLink } from "lucide-react";
 
-export function Contact() {
-  const profile = getProfile();
+export function Contact({ lang }: { lang: Locale }) {
+  const profile = getProfile(lang);
 
   return (
     <section id={SECTIONS.contact} className="section-padding content-container">
@@ -42,14 +42,14 @@ export function Contact() {
                     <Globe className="h-5 w-5 text-accent" />
                   </div>
                   <div>
-                    <span className="block text-sm font-medium text-foreground">LinkedIn</span>
+                    <span className="block text-sm font-medium text-foreground">JobStreet</span>
                     <a
-                      href={profile.socials.linkedin}
+                      href={profile.socials.jobstreet}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-muted-foreground hover:text-accent transition-colors"
                     >
-                      Connect on LinkedIn
+                      View JobStreet Profile
                       <ExternalLink className="ml-1.5 h-3.5 w-3.5" />
                     </a>
                   </div>

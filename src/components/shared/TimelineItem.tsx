@@ -1,12 +1,15 @@
 import { formatDateRange } from "@/lib/utils";
 import type { Experience } from "@/lib/schemas";
 import { ChevronRight } from "lucide-react";
-
+import { getProofByIds } from "@/lib/data";
+import { ProofGallery } from "../proof/ProofGallery";
 interface TimelineItemProps {
   experience: Experience;
 }
 
 export function TimelineItem({ experience }: TimelineItemProps) {
+  const proofs = experience.proofIds?.length > 0 ? getProofByIds(experience.proofIds) : [];
+
   return (
     <div className="relative pl-8 md:pl-0">
       {/* Timeline line - hidden on desktop, left edge on mobile */}
@@ -43,7 +46,12 @@ export function TimelineItem({ experience }: TimelineItemProps) {
             ))}
           </ul>
           
-          {/* [TODO: Render ProofGallery trigger if experience.proofIds.length > 0] */}
+          {proofs.length > 0 && (
+            <div className="mt-6">
+              <h4 className="mb-3 text-sm font-semibold text-foreground">Featured Proofs & Media</h4>
+              <ProofGallery items={proofs} />
+            </div>
+          )}
         </div>
       </div>
     </div>

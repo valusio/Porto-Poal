@@ -1,0 +1,159 @@
+[
+  {
+    "slug": "sippak",
+    "title": "SIPPAK: Enterprise Personnel Information System",
+    "excerpt": "Enterprise personnel management system for the West Sumatra Provincial Government, digitizing administrative workflows for the Governor's Office.",
+    "thumbnail": "/proof/SIPPAK-Tumbnail.webp",
+    "problem": "The executive administration bureau of the personnel department faced operational bottlenecks due to a reliance on manual recording and issuance of bureaucratic documents. The processes for Periodic Salary Increase (KGB) reminders, Rank Seniority List (DUK) recapitulation, bezetting, and the printing of leave letters required highly inefficient processing times. There was a critical urgency to eliminate these administrative inefficiencies through the digitalization of a centralized information system capable of automatically generating standardized document outputs.",
+    "role": "Project Manager, Business Analyst, & Frontend Developer",
+    "architecture": "The system was architected as a web-based monolithic application designed to automate bureaucratic workflows. As the Frontend Developer, the interface architecture was built using the Tailwind CSS utility framework combined with JavaScript interactivity to ensure the responsive rendering of the personnel data dashboard. On the backend, Laravel orchestrated a Role-Based Access Control (RBAC) system that segregated operational capabilities between Users (viewing data, exporting PDF/Excel) and Admins (printing KGB notifications, managing users, and monitoring history). The system implements complex data conversion logic to automatically generate legal documents (such as PDF and Excel summaries for Leave, DUK, and KGB reports) directly from the database.",
+    "techStack": [
+      "Laravel",
+      "Tailwind CSS",
+      "JavaScript",
+      "MySQL",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "impact": "As the Project Manager, coordinating the development pipeline successfully deployed a functional solution that drastically cut administrative latency within the West Sumatra Provincial Government's operational environment. The system accelerates data retrieval and automates the printing of notifications and personnel documents, liberating bureaucratic resources from repetitive clerical tasks. Access to this ecosystem is completely confidential and exclusive to maintain the integrity of government personnel data.",
+    "liveUrl": null,
+    "proofIds": [
+      "sippak-1",
+      "sippak-2",
+      "sippak-4",
+      "sippak-5"
+    ],
+    "featured": true,
+    "order": 1
+  },
+  {
+    "slug": "nagari-creative-hub",
+    "title": "Nagari Creative Hub (NCH) Panti Selatan: Rural MSME Digitalization Platform",
+    "excerpt": "Full-stack platform for Panti Selatan village, a strategic initiative championed by the Vice Governor of West Sumatra.",
+    "thumbnail": "/proof/NCH - Tumbnail.webp",
+    "problem": "Micro, Small, and Medium Enterprises (MSMEs) in rural areas like Nagari Panti Selatan suffer from a visibility deficit due to the lack of centralized digital infrastructure, severely limiting market reach and suppressing local economic potential. Responding to a strategic initiative from the Vice Governor of West Sumatra, there was a technical urgency to engineer a smart directory platform that not only indexes MSME potential but is also SEO-optimized for seamless search engine acquisition. The primary challenge was crafting a user-centered software ecosystem where MSME owners hold full autonomy over their data entities without relying on continuous technical intervention from developers.",
+    "role": "Full-Stack Developer",
+    "architecture": "The system development was executed end-to-end, encompassing the entire lifecycle from conceptualization to production deployment. The application logic and Content Management System (CMS) interface were engineered using the PHP ecosystem with the Filament framework, backed by MySQL's relational capabilities. The authorization architecture utilizes a complex RBAC implementation, decoupling Admin entities (Village Head/Managers) from User entities (MSMEs) who are granted access to independently manipulate and govern their product catalogs. On the infrastructure side, I exclusively provisioned a Hostinger Virtual Private Server (VPS), configured DNS/Domain settings, and implemented SSL/TLS encryption to ensure the platform's integrity and cybersecurity.",
+    "techStack": [
+      "PHP",
+      "Laravel (Filament)",
+      "MySQL",
+      "Hostinger VPS",
+      "SSL/TLS",
+      "SEO Optimization",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "impact": "The NCH platform successfully democratized digital access for the rural community and transformed the Vice Governor's strategic vision into a highly functional software engineering product. System automation and decentralized data governance (zero-maintenance handoff) ensure that both the Village Head and MSME owners can operate the platform independently with zero operational latency. The architectural implementation of SEO optimization has also empirically increased the digital discoverability of Panti Selatan's local products.",
+    "liveUrl": "https://nchpantiselatan.ahwlab.id/",
+    "proofIds": [
+      "nch-sosialisasi-1"
+    ],
+    "featured": true,
+    "order": 2
+  },
+  {
+    "slug": "bps-chatbot",
+    "title": "NIPAD: AI-Powered PST Chatbot (Badan Pusat Statistik Kota Padang)",
+    "excerpt": "AI-powered WhatsApp chatbot for Badan Pusat Statistik (BPS) Kota Padang with zero-hallucination architecture.",
+    "thumbnail": "/proof/NIPAD-Tumbnial.webp",
+    "problem": "The Integrated Statistical Service Unit (PST) of BPS Kota Padang faced operational inefficiencies due to a high volume of data requests that disproportionately outweighed human resource capacity. Officers spent productive hours responding to repetitive, administrative inquiries, ultimately triggering service queues and bottlenecking information dissemination. There was a technical urgency to architect an intelligent assistant capable of instantaneously automating public interactions and decentralizing clerical workloads.",
+    "role": "AI & Automation Engineer",
+    "architecture": "The system was engineered utilizing a Docker-based containerization approach on a Hostinger Virtual Private Server (VPS) infrastructure to guarantee high availability without manual intervention. Data flow orchestration is governed by the n8n low-code workflow automation platform. User messages are intercepted via a WhatsApp HTTP API (WAHA) proxy, then piped into the Natural Language Processing (NLP) engine driven by the Google Gemini Large Language Model (LLM). To mitigate computational hallucination risks, the AI agent is calibrated using a Zero Hallucination framework that restricts its reasoning exclusively to a headless database hosted on Google Sheets.",
+    "architectureSvg": "/proof/NIPAD - Workflow.webp",
+    "techStack": [
+      "n8n",
+      "Google Gemini LLM",
+      "WhatsApp HTTP API (WAHA)",
+      "Google Sheets",
+      "Docker",
+      "Hostinger VPS"
+    ],
+    "impact": "The implementation of this system successfully reduced manual interaction workloads (human handling) by approximately 90% by taking over the vast majority of repetitive queries. Empirical testing validated that the AI agent can precisely extract data with absolute accuracy, clocking an average response latency of merely 4.39 seconds. This automation fundamentally transforms the accessibility of statistical data services - making them instantaneous, precise, and capable of naturally maintaining multi-turn conversational context.",
+    "liveUrl": "https://wa.me/6283188982648",
+    "proofIds": [
+      "bps-chatbot-n8n",
+      "nipad-1",
+      "nipad-2",
+      "nipad-4"
+    ],
+    "featured": true,
+    "order": 3
+  },
+  {
+    "slug": "diabetica",
+    "title": "Smartglucosense (Diabetica): AI-Powered IoT Health Management System (Prototype)",
+    "excerpt": "AI-powered health management application with predictive ML models, earning a Silver Medal at the World Health Competition.",
+    "thumbnail": "/proof/Glucosense - Tumbnail.webp",
+    "problem": "The exponential increase in global diabetes prevalence exposes fundamental flaws in conventional glycemic monitoring methods, the vast majority of which remain reactive. Traditional systems fail to proactively infer fluctuations in glucose levels. There is a critical urgency to eliminate medical information latency, which theoretically requires an artificial intelligence architecture to transform raw time-series data from patients into predictive clinical insights in real-time.",
+    "role": "AI Engineer",
+    "architecture": "The system was designed up to the prototype phase in December 2024 by orchestrating a simulated machine learning and Internet of Things (IoT) pipeline. Data communication from a Continuous Glucose Monitor (CGM) device was simulated using the MQTT protocol and integrated into a time-series database (InfluxDB). At the artificial intelligence layer, the data processing architecture was developed using the Python ecosystem (PyTorch and Scikit-learn) via a FastAPI endpoint. This prototype of longitudinal analytic modeling is designed to detect glycemic anomalies and execute data fusion from physiological variables to automatically generate prescriptive nutritional recommendations.",
+    "techStack": [
+      "Python",
+      "PyTorch",
+      "Scikit-learn",
+      "Time-Series Forecasting (LSTM)",
+      "InfluxDB",
+      "MQTT",
+      "FastAPI"
+    ],
+    "impact": "Although implementation was limited to a functional prototype phase, the conceptualization and design of this AI architecture successfully validated the theoretical utility of machine learning in preventive health management. This system design secured the Silver Medal (2nd Place) at the 2nd World Health Competition. Academically, this algorithmic prototype proves a highly adaptive technical feasibility in supporting future monitoring for high-risk demographics, particularly in cases of gestational diabetes and type 1 diabetes mellitus.",
+    "liveUrl": null,
+    "proofIds": [
+      "diabetica-1",
+      "diabetica-2",
+      "diabetica-3",
+      "diabetica-4"
+    ],
+    "featured": true,
+    "order": 4
+  },
+  {
+    "slug": "wice-ecommerce",
+    "title": "KOMIKSI: Literacy Comic-Based MSME Packaging Platform",
+    "excerpt": "Architected and deployed a production-ready e-commerce platform, earning a Gold Medal at WICE Malaysia and national representation at PIMNAS.",
+    "thumbnail": "/proof/WICE - Tumbnail.webp",
+    "problem": "Disparities in packaging quality within the MSME sector in Indonesia, particularly in the Padang region, significantly limit market reach and product value. The majority of home industries still rely on conventional, repetitive transparent packaging that lacks differentiation. This degrades the potential for product competitiveness in the national market and highlights a lack of adoption of educational values and cultural identity in visual marketing strategies.",
+    "role": "Full-Stack Developer",
+    "architecture": "The platform's development was architected using a Waterfall Software Development Life Cycle (SDLC) approach to ensure a measurable systems engineering process from the analysis phase to maintenance. The backend logic and user interface were built using the Model-View-Controller (MVC) architecture with the CodeIgniter 3 (PHP) framework, integrated with a MySQL relational database management system. Prior to codebase implementation, data structures and system flows were comprehensively validated using Unified Modeling Language (UML) - including Use Case, Sequence, Activity, and Class Diagrams - to minimize anomalies in the production environment. System functionality testing was executed using Black-box testing methods.",
+    "techStack": [
+      "PHP",
+      "CodeIgniter 3",
+      "MySQL",
+      "MVC Architecture",
+      "UML"
+    ],
+    "impact": "The project was awarded the Gold Medal (1st Place) at the World Invention Competition and Exhibition (WICE) Malaysia 2024. The platform was successfully deployed to a production environment, digitizing the packaging design ordering process with the potential to reach up to 18 to 25.6 million MSMEs nationwide. (Note: The live application at komiksidesain.com is no longer accessible as the domain and hosting expired in 2025.)",
+    "liveUrl": null,
+    "proofIds": [
+      "wice-1",
+      "wice-2",
+      "wice-3"
+    ],
+    "featured": true,
+    "order": 5
+  },
+  {
+    "slug": "personal-portfolio",
+    "title": "Modern Developer Portfolio",
+    "excerpt": "A high-performance, accessible, and beautifully animated personal portfolio showcasing professional experience, engineering projects, and achievements.",
+    "thumbnail": "/proof/Porto.webp",
+    "problem": "In the highly competitive tech industry, a developer's portfolio must serve as a testament to their technical prowess. Traditional portfolios often suffer from poor performance, lack of accessibility, and rigid architectures that are difficult to update. The challenge was to architect a state-of-the-art web application that is visually striking yet exceptionally fast and maintainable.",
+    "role": "Full-Stack Developer",
+    "architecture": "This portfolio is engineered using the cutting-edge Next.js 16 (React 19) App Router for optimal Server-Side Rendering (SSR) and SEO performance. Styling is driven by the lightning-fast Tailwind CSS v4 alongside Radix UI primitives for uncompromised accessibility. Complex state animations are orchestrated via Framer Motion, ensuring butter-smooth transitions. The entire architecture is strongly typed with TypeScript and validated at runtime using Zod, guaranteeing data integrity from the JSON-based headless CMS approach.",
+    "techStack": [
+      "Next.js 16",
+      "React 19",
+      "Tailwind CSS v4",
+      "TypeScript",
+      "Framer Motion",
+      "Radix UI",
+      "Zod"
+    ],
+    "impact": "Delivers a blazing fast 100/100 Lighthouse score, fully accessible component design, and a responsive glassmorphism aesthetic that establishes a premium personal brand.",
+    "liveUrl": "https://github.com/valusio",
+    "proofIds": [
+      "porto-1"
+    ],
+    "featured": true,
+    "order": 6
+  }
+]

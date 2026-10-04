@@ -2,15 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { Project } from "@/lib/schemas";
+import { Locale } from "@/lib/data";
 
 interface ProjectCardProps {
   project: Project;
+  lang: Locale;
 }
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export function ProjectCard({ project, lang }: ProjectCardProps) {
   return (
     <Link
-      href={`/projects/${project.slug}`}
+      href={`/${lang}/projects/${project.slug}`}
       className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-all hover:border-accent/50 hover:shadow-md focus-visible:ring-2 focus-visible:ring-accent focus-visible:outline-none"
     >
       <div className="relative aspect-[16/9] w-full overflow-hidden bg-muted">
@@ -18,7 +20,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           src={project.thumbnail}
           alt={project.title}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
       </div>

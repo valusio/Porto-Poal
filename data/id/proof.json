@@ -1,0 +1,138 @@
+[
+  {
+    "id": "nch-sosialisasi-1",
+    "src": "/proof/NCH.webp",
+    "alt": "Spanduk dan Dokumentasi Sosialisasi NCH",
+    "caption": "Kegiatan sosialisasi dan pelatihan platform Nagari Creative Hub (NCH) di Nagari Panti Selatan (30 Juli 2026). Program ini secara langsung mendorong digitalisasi UMKM dan kemandirian ekonomi kreatif.",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "bps-chatbot-n8n",
+    "src": "/proof/NIPAD - Workflow.webp",
+    "alt": "n8n Workflow Architecture for BPS Chatbot",
+    "caption": "Arsitektur n8n workflow untuk BPS Chatbot (NIPAD).",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "sippak-1",
+    "src": "/proof/SIPPAK.webp",
+    "alt": "SIPPAK",
+    "caption": "Dokumentasi Sistem Informasi Pegawai (SIPPAK)",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "sippak-2",
+    "src": "/proof/SIPPAK(1).webp",
+    "alt": "SIPPAK 1",
+    "caption": "Implementasi SIPPAK di Kantor Gubernur Sumbar",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "sippak-4",
+    "src": "/proof/SIPPAK(3).webp",
+    "alt": "SIPPAK 3",
+    "caption": "Sistem Informasi Pegawai - UI/UX",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "sippak-5",
+    "src": "/proof/SIPPAK(4).webp",
+    "alt": "SIPPAK 4",
+    "caption": "Dokumentasi SIPPAK",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "nipad-1",
+    "src": "/proof/NIPAD.webp",
+    "alt": "NIPAD 1",
+    "caption": "Dokumentasi Inovasi NIPAD",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "nipad-2",
+    "src": "/proof/NIPAD(1).webp",
+    "alt": "NIPAD 2",
+    "caption": "Dokumentasi Inovasi NIPAD",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "nipad-4",
+    "src": "/proof/NIPAD(3).webp",
+    "alt": "NIPAD 4",
+    "caption": "Dokumentasi Inovasi NIPAD",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "diabetica-1",
+    "src": "/proof/Glucosense.webp",
+    "alt": "Glucosense 1",
+    "caption": "Glucosense (Diabetica) Documentation",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "diabetica-2",
+    "src": "/proof/Glucosense(1).webp",
+    "alt": "Glucosense 2",
+    "caption": "Glucosense UI 1",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "diabetica-3",
+    "src": "/proof/Glucosense(2).webp",
+    "alt": "Glucosense 3",
+    "caption": "Glucosense UI 2",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "diabetica-4",
+    "src": "/proof/Glucosense(3).webp",
+    "alt": "Glucosense 4",
+    "caption": "Glucosense UI 3",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "wice-1",
+    "src": "/proof/WICE.webp",
+    "alt": "WICE 1",
+    "caption": "WICE Platform",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "wice-2",
+    "src": "/proof/WICE(2).webp",
+    "alt": "WICE 2",
+    "caption": "WICE UI 1",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "wice-3",
+    "src": "/proof/WICE(1).webp",
+    "alt": "WICE 3",
+    "caption": "WICE UI 2",
+    "section": "projects",
+    "sanitized": false
+  },
+  {
+    "id": "porto-1",
+    "src": "/proof/Porto.webp",
+    "alt": "Modern Developer Portfolio Interface",
+    "caption": "The sleek, glassmorphism-inspired UI of this portfolio.",
+    "section": "projects",
+    "sanitized": false
+  }
+]

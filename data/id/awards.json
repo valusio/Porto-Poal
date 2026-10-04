@@ -1,0 +1,37 @@
+[
+  {
+    "id": "award-wice",
+    "title": "Peraih Medali Emas - WICE",
+    "event": "World Invention Competition and Exhibition",
+    "year": 2024,
+    "location": "Malaysia",
+    "category": "Inovasi Ilmu Sosial",
+    "description": "Full-Stack Developer dari platform web e-commerce inovatif; mengarsiteki dan meluncurkan sistem siap produksi; mewakili tingkat nasional di PIMNAS (Pekan Ilmiah Mahasiswa Nasional).",
+    "projectName": "[TODO: project name]",
+    "link": "https://www.instagram.com/p/DAXli4pSREr/?igsi=MWNuaW01MjZqYWVyYg==",
+    "proofIds": []
+  },
+  {
+    "id": "award-whc",
+    "title": "Peraih Medali Perak - World Health Competition",
+    "event": "The 2nd World Health Competition",
+    "year": 2025,
+    "location": null,
+    "category": "Inovasi AI Kesehatan",
+    "description": "Turut merekayasa Diabetica, aplikasi manajemen kesehatan berbasis AI yang mengintegrasikan model Machine Learning prediktif untuk manajemen kesehatan yang personal, otonom, dan berbasis data.",
+    "relatedProjectSlug": "diabetica",
+    "link": "https://www.instagram.com/p/DN2MPGCYtDM/?igsi=MTFvM3lyNmd0Mmg3ZQ==",
+    "proofIds": []
+  },
+  {
+    "id": "leadership-hmif",
+    "type": "leadership",
+    "title": "Ketua Umum - HMIF",
+    "event": "Himpunan Mahasiswa Informatika, Universitas Andalas",
+    "year": "2023-2024",
+    "location": "Padang",
+    "category": "Kepemimpinan",
+    "description": "Kepemimpinan eksekutif Himpunan Mahasiswa Informatika: pengawasan strategis, inisiatif jangka panjang, struktur tata kelola, program pemberdayaan mahasiswa. Keterlibatan pemangku kepentingan di tingkat pimpinan universitas, mitra eksternal, dan badan kemahasiswaan. Memimpin peningkatan kapasitas melalui lokakarya pengembangan keterampilan, bootcamp teknis, dan inisiatif komunitas.",
+    "proofIds": []
+  }
+]

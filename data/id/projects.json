@@ -1,0 +1,159 @@
+[
+  {
+    "slug": "sippak",
+    "title": "SIPPAK: Sistem Informasi Kepegawaian Enterprise",
+    "excerpt": "Sistem manajemen kepegawaian enterprise untuk Pemerintah Provinsi Sumatera Barat, mendigitalisasi alur kerja administratif untuk Kantor Gubernur.",
+    "thumbnail": "/proof/SIPPAK-Tumbnail.webp",
+    "problem": "Biro administrasi eksekutif kepegawaian menghadapi hambatan operasional karena ketergantungan pada pencatatan manual dan penerbitan dokumen birokrasi. Proses pengingat Kenaikan Gaji Berkala (KGB), rekapitulasi Daftar Urut Kepangkatan (DUK), bezetting, dan pencetakan surat cuti membutuhkan waktu pemrosesan yang sangat tidak efisien. Terdapat urgensi kritis untuk menghilangkan inefisiensi administratif ini melalui digitalisasi sistem informasi terpusat yang mampu menghasilkan keluaran dokumen standar secara otomatis.",
+    "role": "Project Manager, Business Analyst, & Frontend Developer",
+    "architecture": "Sistem diarsiteki sebagai aplikasi monolitik berbasis web yang dirancang untuk mengotomatisasi alur kerja birokrasi. Sebagai Frontend Developer, arsitektur antarmuka dibangun menggunakan kerangka utilitas Tailwind CSS yang dikombinasikan dengan interaktivitas JavaScript untuk memastikan rendering dasbor data kepegawaian yang responsif. Pada backend, Laravel mengorkestrasi sistem Role-Based Access Control (RBAC) yang memisahkan kemampuan operasional antara Pengguna (melihat data, mengekspor PDF/Excel) dan Admin (mencetak notifikasi KGB, mengelola pengguna, dan memantau riwayat). Sistem ini mengimplementasikan logika konversi data yang kompleks untuk secara otomatis menghasilkan dokumen legal (seperti ringkasan PDF dan Excel untuk Cuti, DUK, dan laporan KGB) langsung dari database.",
+    "techStack": [
+      "Laravel",
+      "Tailwind CSS",
+      "JavaScript",
+      "MySQL",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "impact": "Sebagai Project Manager, mengoordinasikan alur pengembangan berhasil meluncurkan solusi fungsional yang secara drastis memangkas latensi administratif di dalam lingkungan operasional Pemerintah Provinsi Sumatera Barat. Sistem ini mempercepat pengambilan data dan mengotomatisasi pencetakan notifikasi serta dokumen kepegawaian, membebaskan sumber daya birokrasi dari tugas klerikal yang berulang. Akses ke ekosistem ini sepenuhnya rahasia dan eksklusif untuk menjaga integritas data kepegawaian pemerintah.",
+    "liveUrl": null,
+    "proofIds": [
+      "sippak-1",
+      "sippak-2",
+      "sippak-4",
+      "sippak-5"
+    ],
+    "featured": true,
+    "order": 1
+  },
+  {
+    "slug": "nagari-creative-hub",
+    "title": "Nagari Creative Hub (NCH) Panti Selatan: Platform Digitalisasi UMKM Pedesaan",
+    "excerpt": "Platform full-stack untuk Desa Panti Selatan, sebuah inisiatif strategis yang didukung oleh Wakil Gubernur Sumatera Barat.",
+    "thumbnail": "/proof/NCH - Tumbnail.webp",
+    "problem": "Usaha Mikro, Kecil, dan Menengah (UMKM) di daerah pedesaan seperti Nagari Panti Selatan menderita defisit visibilitas karena kurangnya infrastruktur digital terpusat, yang sangat membatasi jangkauan pasar dan menekan potensi ekonomi lokal. Merespons inisiatif strategis dari Wakil Gubernur Sumatera Barat, terdapat urgensi teknis untuk merekayasa platform direktori pintar yang tidak hanya mengindeks potensi UMKM tetapi juga dioptimalkan untuk SEO agar mudah diakuisisi oleh mesin pencari. Tantangan utamanya adalah merancang ekosistem perangkat lunak yang berpusat pada pengguna, di mana pemilik UMKM memegang otonomi penuh atas entitas data mereka tanpa bergantung pada intervensi teknis berkelanjutan dari pengembang.",
+    "role": "Full-Stack Developer",
+    "architecture": "Pengembangan sistem dieksekusi dari awal hingga akhir, mencakup seluruh siklus hidup dari konseptualisasi hingga peluncuran produksi. Logika aplikasi dan antarmuka Content Management System (CMS) direkayasa menggunakan ekosistem PHP dengan kerangka kerja Filament, didukung oleh kapabilitas relasional MySQL. Arsitektur otorisasi menggunakan implementasi RBAC yang kompleks, memisahkan entitas Admin (Kepala Desa/Pengelola) dari entitas Pengguna (UMKM) yang diberikan akses untuk memanipulasi dan mengatur katalog produk mereka secara mandiri. Di sisi infrastruktur, saya secara eksklusif menyediakan Virtual Private Server (VPS) Hostinger, mengonfigurasi pengaturan DNS/Domain, dan mengimplementasikan enkripsi SSL/TLS untuk memastikan integritas dan keamanan siber platform.",
+    "techStack": [
+      "PHP",
+      "Laravel (Filament)",
+      "MySQL",
+      "Hostinger VPS",
+      "SSL/TLS",
+      "SEO Optimization",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "impact": "Platform NCH berhasil mendemokratisasi akses digital bagi masyarakat pedesaan dan mengubah visi strategis Wakil Gubernur menjadi produk rekayasa perangkat lunak yang sangat fungsional. Otomatisasi sistem dan tata kelola data yang terdesentralisasi (tanpa pemeliharaan lanjutan) memastikan bahwa Kepala Desa dan pemilik UMKM dapat mengoperasikan platform secara mandiri tanpa latensi operasional. Implementasi arsitektural optimasi SEO juga secara empiris telah meningkatkan keterdekatan digital produk lokal Panti Selatan.",
+    "liveUrl": "https://nchpantiselatan.ahwlab.id/",
+    "proofIds": [
+      "nch-sosialisasi-1"
+    ],
+    "featured": true,
+    "order": 2
+  },
+  {
+    "slug": "bps-chatbot",
+    "title": "NIPAD: Chatbot PST Berbasis AI (Badan Pusat Statistik Kota Padang)",
+    "excerpt": "Chatbot WhatsApp berbasis AI untuk Badan Pusat Statistik (BPS) Kota Padang dengan arsitektur tanpa halusinasi.",
+    "thumbnail": "/proof/NIPAD-Tumbnial.webp",
+    "problem": "Unit Pelayanan Statistik Terpadu (PST) BPS Kota Padang menghadapi inefisiensi operasional karena tingginya volume permintaan data yang tidak sebanding dengan kapasitas sumber daya manusia. Petugas menghabiskan jam produktif merespons pertanyaan administratif yang berulang, yang pada akhirnya memicu antrean layanan dan menghambat diseminasi informasi. Terdapat urgensi teknis untuk mengarsiteki asisten cerdas yang mampu mengotomatisasi interaksi publik secara instan dan mendesentralisasi beban kerja klerikal.",
+    "role": "AI & Automation Engineer",
+    "architecture": "Sistem direkayasa menggunakan pendekatan kontainerisasi berbasis Docker pada infrastruktur Virtual Private Server (VPS) Hostinger untuk menjamin ketersediaan tinggi tanpa intervensi manual. Orkestrasi aliran data diatur oleh platform otomatisasi alur kerja low-code n8n. Pesan pengguna disadap melalui proksi WhatsApp HTTP API (WAHA), kemudian dialirkan ke mesin Natural Language Processing (NLP) yang digerakkan oleh Google Gemini Large Language Model (LLM). Untuk memitigasi risiko halusinasi komputasional, agen AI dikalibrasi menggunakan kerangka kerja Zero Hallucination yang membatasi penalaran eksklusif pada basis data headless yang di-hosting di Google Sheets.",
+    "architectureSvg": "/proof/NIPAD - Workflow.webp",
+    "techStack": [
+      "n8n",
+      "Google Gemini LLM",
+      "WhatsApp HTTP API (WAHA)",
+      "Google Sheets",
+      "Docker",
+      "Hostinger VPS"
+    ],
+    "impact": "Implementasi sistem ini berhasil mengurangi beban kerja interaksi manual sekitar 90% dengan mengambil alih sebagian besar pertanyaan yang berulang. Pengujian empiris memvalidasi bahwa agen AI dapat secara presisi mengekstraksi data dengan akurasi absolut, mencatatkan rata-rata latensi respons hanya 4.39 detik. Otomatisasi ini secara fundamental mengubah aksesibilitas layanan data statistik - menjadikannya instan, presisi, dan mampu secara natural menjaga konteks percakapan multi-turn.",
+    "liveUrl": "https://wa.me/6283188982648",
+    "proofIds": [
+      "bps-chatbot-n8n",
+      "nipad-1",
+      "nipad-2",
+      "nipad-4"
+    ],
+    "featured": true,
+    "order": 3
+  },
+  {
+    "slug": "diabetica",
+    "title": "Smartglucosense (Diabetica): Sistem Manajemen Kesehatan IoT Berbasis AI (Prototipe)",
+    "excerpt": "Aplikasi manajemen kesehatan berbasis AI dengan model ML prediktif, meraih Medali Perak di World Health Competition.",
+    "thumbnail": "/proof/Glucosense - Tumbnail.webp",
+    "problem": "Peningkatan eksponensial prevalensi diabetes global mengekspos kelemahan mendasar dalam metode pemantauan glikemik konvensional, yang sebagian besar masih bersifat reaktif. Sistem tradisional gagal menyimpulkan fluktuasi kadar glukosa secara proaktif. Terdapat urgensi kritis untuk menghilangkan latensi informasi medis, yang secara teoretis membutuhkan arsitektur kecerdasan buatan untuk mengubah data deret waktu mentah dari pasien menjadi wawasan klinis prediktif secara real-time.",
+    "role": "AI Engineer",
+    "architecture": "Sistem dirancang hingga fase prototipe pada Desember 2024 dengan mengorkestrasi alur kerja simulasi machine learning dan Internet of Things (IoT). Komunikasi data dari perangkat Continuous Glucose Monitor (CGM) disimulasikan menggunakan protokol MQTT dan diintegrasikan ke dalam database deret waktu (InfluxDB). Pada lapisan kecerdasan buatan, arsitektur pemrosesan data dikembangkan menggunakan ekosistem Python (PyTorch dan Scikit-learn) melalui endpoint FastAPI. Prototipe pemodelan analitik longitudinal ini dirancang untuk mendeteksi anomali glikemik dan mengeksekusi fusi data dari variabel fisiologis untuk secara otomatis menghasilkan rekomendasi nutrisi preskriptif.",
+    "techStack": [
+      "Python",
+      "PyTorch",
+      "Scikit-learn",
+      "Time-Series Forecasting (LSTM)",
+      "InfluxDB",
+      "MQTT",
+      "FastAPI"
+    ],
+    "impact": "Meskipun implementasi terbatas pada fase prototipe fungsional, konseptualisasi dan desain arsitektur AI ini berhasil memvalidasi kegunaan teoretis machine learning dalam manajemen kesehatan preventif. Desain sistem ini meraih Medali Perak (Juara 2) di 2nd World Health Competition. Secara akademis, prototipe algoritmik ini membuktikan kelayakan teknis yang sangat adaptif dalam mendukung pemantauan masa depan untuk demografi berisiko tinggi, terutama pada kasus diabetes gestasional dan diabetes melitus tipe 1.",
+    "liveUrl": null,
+    "proofIds": [
+      "diabetica-1",
+      "diabetica-2",
+      "diabetica-3",
+      "diabetica-4"
+    ],
+    "featured": true,
+    "order": 4
+  },
+  {
+    "slug": "wice-ecommerce",
+    "title": "KOMIKSI: Platform Pengemasan UMKM Berbasis Komik Literasi",
+    "excerpt": "Mengarsiteki dan meluncurkan platform e-commerce siap produksi, meraih Medali Emas di WICE Malaysia dan perwakilan nasional di PIMNAS.",
+    "thumbnail": "/proof/WICE - Tumbnail.webp",
+    "problem": "Kesenjangan kualitas kemasan dalam sektor UMKM di Indonesia, khususnya di wilayah Padang, sangat membatasi jangkauan pasar dan nilai produk. Mayoritas industri rumahan masih bergantung pada kemasan transparan konvensional yang berulang dan kurang diferensiasi. Hal ini mendegradasi potensi daya saing produk di pasar nasional dan menyoroti kurangnya adopsi nilai pendidikan serta identitas budaya dalam strategi pemasaran visual.",
+    "role": "Full-Stack Developer",
+    "architecture": "Pengembangan platform diarsiteki menggunakan pendekatan Waterfall Software Development Life Cycle (SDLC) untuk memastikan proses rekayasa sistem yang terukur dari fase analisis hingga pemeliharaan. Logika backend dan antarmuka pengguna dibangun menggunakan arsitektur Model-View-Controller (MVC) dengan kerangka kerja CodeIgniter 3 (PHP), terintegrasi dengan sistem manajemen basis data relasional MySQL. Sebelum implementasi kode, struktur data dan alur sistem divalidasi secara komprehensif menggunakan Unified Modeling Language (UML) - termasuk Use Case, Sequence, Activity, dan Class Diagrams - untuk meminimalkan anomali dalam lingkungan produksi. Pengujian fungsionalitas sistem dieksekusi menggunakan metode pengujian Black-box.",
+    "techStack": [
+      "PHP",
+      "CodeIgniter 3",
+      "MySQL",
+      "MVC Architecture",
+      "UML"
+    ],
+    "impact": "Proyek ini dianugerahi Medali Emas (Juara 1) di World Invention Competition and Exhibition (WICE) Malaysia 2024. Platform ini berhasil diluncurkan ke lingkungan produksi, mendigitalisasi proses pemesanan desain kemasan dengan potensi menjangkau hingga 18 hingga 25.6 juta UMKM secara nasional. (Catatan: Aplikasi live di komiksidesain.com tidak lagi dapat diakses karena domain dan hosting kedaluwarsa pada tahun 2025.)",
+    "liveUrl": null,
+    "proofIds": [
+      "wice-1",
+      "wice-2",
+      "wice-3"
+    ],
+    "featured": true,
+    "order": 5
+  },
+  {
+    "slug": "personal-portfolio",
+    "title": "Portofolio Developer Modern",
+    "excerpt": "Portofolio pribadi yang berkinerja tinggi, aksesibel, dan beranimasi indah untuk menampilkan pengalaman profesional, proyek rekayasa, dan pencapaian.",
+    "thumbnail": "/proof/Porto.webp",
+    "problem": "Dalam industri teknologi yang sangat kompetitif, portofolio seorang developer harus berfungsi sebagai bukti nyata dari kehebatan teknis mereka. Portofolio tradisional seringkali menderita kinerja buruk, kurangnya aksesibilitas, dan arsitektur kaku yang sulit diperbarui. Tantangannya adalah mengarsiteki aplikasi web mutakhir yang tidak hanya memukau secara visual, tetapi juga sangat cepat dan mudah dikelola.",
+    "role": "Full-Stack Developer",
+    "architecture": "Portofolio ini direkayasa menggunakan App Router Next.js 16 (React 19) mutakhir untuk performa Server-Side Rendering (SSR) dan SEO yang optimal. Penataan gaya didorong oleh Tailwind CSS v4 yang super cepat berdampingan dengan komponen primitif Radix UI untuk aksesibilitas tanpa kompromi. Animasi state yang kompleks diorkestrasi melalui Framer Motion, memastikan transisi yang sangat halus. Seluruh arsitektur diketik dengan kuat menggunakan TypeScript dan divalidasi pada saat runtime menggunakan Zod, menjamin integritas data dari pendekatan CMS headless berbasis JSON.",
+    "techStack": [
+      "Next.js 16",
+      "React 19",
+      "Tailwind CSS v4",
+      "TypeScript",
+      "Framer Motion",
+      "Radix UI",
+      "Zod"
+    ],
+    "impact": "Memberikan skor Lighthouse 100/100 yang sangat cepat, desain komponen yang sepenuhnya aksesibel, dan estetika glassmorphism responsif yang membangun merek personal premium.",
+    "liveUrl": "https://github.com/valusio",
+    "proofIds": [
+      "porto-1"
+    ],
+    "featured": true,
+    "order": 6
+  }
+]

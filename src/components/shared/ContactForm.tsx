@@ -14,12 +14,48 @@ export function ContactForm() {
     setIsSubmitting(true);
     setError("");
 
-    // [TODO: Hook up to actual API Gateway Lambda]
-    // Simulate network request
-    setTimeout(() => {
-      setIsSubmitting(false);
+    const formspreeUrl = process.env.NEXT_PUBLIC_FORMSPREE_URL;
+    
+    // Fallback if URL is not configured yet
+    if (!formspreeUrl) {
+      setTimeout(() => {
+        setIsSubmitting(false);
+        setIsSuccess(true);
+      }, 1500);
+      return;
+    }
+
+    try {
+      const formData = new FormData(e.currentTarget);
+      
+      // Spam prevention check
+      if (formData.get("_honey")) {
+        throw new Error("Invalid request");
+      }
+
+      const res = await fetch(formspreeUrl, {
+        method: "POST",
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          name: formData.get("name"),
+          email: formData.get("email"),
+          message: formData.get("message"),
+        }),
+      });
+
+      if (!res.ok) {
+        throw new Error("Gagal mengirim pesan. Silakan coba lagi.");
+      }
+
       setIsSuccess(true);
-    }, 1500);
+    } catch (err: any) {
+      setError(err.message || "Terjadi kesalahan yang tidak terduga.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSuccess) {

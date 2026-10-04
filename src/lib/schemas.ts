@@ -4,7 +4,7 @@ import { z } from "zod";
 
 export const socialSchema = z.object({
   github: z.string(),
-  linkedin: z.string(),
+  jobstreet: z.string(),
   portfolio: z.string().url(),
 });
 
@@ -112,6 +112,7 @@ export const awardSchema = z.object({
   description: z.string().min(1),
   projectName: z.string().optional(),
   relatedProjectSlug: z.string().optional(),
+  link: z.string().url().optional(),
   proofIds: z.array(z.string()),
 });
 
@@ -126,6 +127,9 @@ export const trainingSchema = z.object({
   provider: z.string().min(1),
   startDate: z.string(),
   endDate: z.string(),
+  credentialId: z.string().optional(),
+  description: z.string().optional(),
+  link: z.string().optional(),
   proofIds: z.array(z.string()),
 });
 

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "exp-nch",
+    "role": "Full-Stack Developer",
+    "organization": "Nagari Panti Selatan, Kab. Pasaman, Sumatera Barat",
+    "startDate": "2026-05",
+    "endDate": "2026-08",
+    "description": "Rekayasa dan implementasi dari awal hingga akhir untuk Platform Digitalisasi UMKM Pedesaan Nagari Creative Hub (NCH), sebuah inisiatif strategis yang didukung oleh Wakil Gubernur Sumatera Barat.",
+    "highlights": [
+      "Memegang tanggung jawab penuh atas siklus pengembangan perangkat lunak dari konseptualisasi hingga peluncuran produksi",
+      "Merekayasa logika aplikasi dan antarmuka CMS menggunakan ekosistem PHP (Laravel Filament) yang didukung oleh MySQL",
+      "Mengimplementasikan sistem Role-Based Access Control (RBAC) yang kompleks untuk memisahkan entitas Admin dan Pengguna UMKM",
+      "Menyediakan Hostinger VPS dengan konfigurasi DNS dan enkripsi SSL/TLS untuk peluncuran produksi yang aman",
+      "Menerapkan optimasi SEO arsitektural untuk meningkatkan keterdekatan produk lokal secara empiris di dunia digital"
+    ],
+    "relatedProjectSlug": "nagari-creative-hub",
+    "proofIds": []
+  },
+  {
+    "id": "exp-bps",
+    "role": "AI & Automation Engineer",
+    "organization": "Badan Pusat Statistik (BPS) Kota Padang",
+    "startDate": "2026-01",
+    "endDate": "2026-03",
+    "description": "Mengarsiteki NIPAD, chatbot layanan statistik cerdas dengan kerangka kerja Tanpa Halusinasi yang mengotomatisasi interaksi publik dan mendesentralisasi beban kerja klerikal.",
+    "highlights": [
+      "Membangun alur otomatis end-to-end yang mengintegrasikan Google Gemini LLM dan orkestrasi alur kerja n8n",
+      "Memitigasi risiko halusinasi dengan secara eksklusif membatasi agen AI pada basis data headless (Google Sheets)",
+      "Mengintegrasikan WhatsApp HTTP API (WAHA) untuk pengiriman layanan instan 24/7 kepada masyarakat",
+      "Menjamin ketersediaan tinggi melalui kontainerisasi berbasis Docker pada infrastruktur Hostinger VPS",
+      "Berhasil mengurangi beban interaksi manual hingga ~90% sekaligus mencapai rata-rata latensi respons 4.39 detik"
+    ],
+    "relatedProjectSlug": "bps-chatbot",
+    "proofIds": []
+  },
+  {
+    "id": "exp-sippak",
+    "role": "Project Manager, Business Analyst, & Frontend Developer",
+    "organization": "Kantor Gubernur Sumatera Barat, Kota Padang",
+    "startDate": "2024-02",
+    "endDate": "2024-12",
+    "description": "Mengoordinasikan alur pengembangan dan merekayasa arsitektur frontend untuk Sistem Informasi Kepegawaian Enterprise SIPPAK.",
+    "highlights": [
+      "Memimpin pengumpulan kebutuhan untuk menghilangkan inefisiensi administratif dalam alur kerja Kenaikan Gaji Berkala (KGB) dan Daftar Urut Kepangkatan (DUK)",
+      "Membangun dasbor data kepegawaian yang responsif menggunakan kerangka utilitas Tailwind CSS dan interaktivitas JavaScript",
+      "Mengorkestrasi sistem Role-Based Access Control (RBAC) di Laravel untuk memisahkan kemampuan operasional Admin dan Pengguna",
+      "Mengimplementasikan logika konversi data kompleks untuk secara otomatis menghasilkan dokumen legal (ringkasan PDF dan Excel) langsung dari MySQL",
+      "Secara drastis memangkas latensi administratif, membebaskan sumber daya birokrasi dari tugas klerikal yang berulang"
+    ],
+    "relatedProjectSlug": "sippak",
+    "proofIds": []
+  }
+]

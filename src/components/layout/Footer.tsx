@@ -1,7 +1,7 @@
-import { getProfile } from "@/lib/data";
+import { Locale, getProfile } from "@/lib/data";
 
-export function Footer() {
-  const profile = getProfile();
+export function Footer({ lang }: { lang: Locale }) {
+  const profile = getProfile(lang);
   const year = new Date().getFullYear();
 
   return (
@@ -20,12 +20,12 @@ export function Footer() {
             GitHub
           </a>
           <a
-            href={profile.socials.linkedin}
+            href={profile.socials.jobstreet}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors"
           >
-            LinkedIn
+            JobStreet
           </a>
         </div>
       </div>
