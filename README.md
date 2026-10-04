@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Poalca Valusio - Full Stack Software Engineer Portfolio
 
-## Getting Started
+![Portfolio Preview](./public/proof/Porto.png)
 
-First, run the development server:
+A modern, high-performance, and fully responsive bilingual (English/Indonesian) portfolio built to showcase my projects, professional experience, and technical skills. 
 
+Live at: **[portofolio-poalca.ahwlab.id](https://portofolio-poalca.ahwlab.id)**
+
+## 🚀 Tech Stack
+
+- **Framework:** Next.js 15 (App Router, Static Export)
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Forms:** Formspree (Client-side)
+- **Deployment:** Hostinger via GitHub Actions (CI/CD)
+
+## ✨ Features
+
+- 🌍 **Internationalization (i18n):** Native bilingual support (EN/ID) without third-party dependencies, optimized for static export.
+- ⚡ **High Performance:** Achieves 95+ Lighthouse scores utilizing Next.js static generation (SSG) and priority asset fetching.
+- 🎨 **Modern Design:** Glassmorphism UI, smooth scroll animations, and CSS-based responsive layouts.
+- 📱 **Mobile First:** Fully responsive across all devices from small smartphones to ultrawide monitors.
+- ✉️ **Serverless Contact Form:** Integrated with Formspree for seamless and secure email forwarding.
+- 🤖 **CI/CD Pipeline:** Fully automated deployment to Shared Hosting via GitHub Actions.
+
+## 🛠️ Local Development
+
+### Prerequisites
+- Node.js >= 20
+- npm >= 10
+
+### Setup
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/valusio/Porto-Poal.git
+cd Porto-Poal
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Configure Environment
+Create a `.env.local` file in the root directory:
+```env
+NEXT_PUBLIC_FORMSPREE_URL=your_formspree_endpoint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Run the development server
+```bash
+npm run dev
+```
+Visit `http://localhost:3000` to view the application.
 
-## Learn More
+## 📦 Deployment (Static Export)
 
-To learn more about Next.js, take a look at the following resources:
+This project uses Next.js `output: 'export'` for maximum performance and cost-efficiency.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
+The compiled output will be generated in the `out/` directory, ready to be served by any static file host like Nginx, Apache, or AWS S3.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+This project is proprietary and intended as a personal portfolio.
