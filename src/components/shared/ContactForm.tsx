@@ -51,8 +51,8 @@ export function ContactForm() {
       }
 
       setIsSuccess(true);
-    } catch (err: any) {
-      setError(err.message || "Terjadi kesalahan yang tidak terduga.");
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Terjadi kesalahan yang tidak terduga.");
     } finally {
       setIsSubmitting(false);
     }
