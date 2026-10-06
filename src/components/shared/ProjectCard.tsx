@@ -23,6 +23,11 @@ export function ProjectCard({ project, lang }: ProjectCardProps) {
           className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+        {project.category && (
+          <span className="absolute left-4 top-4 z-10 inline-flex items-center rounded-full bg-accent px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white shadow-md">
+            {project.category}
+          </span>
+        )}
       </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="mb-2 text-xl font-semibold text-foreground group-hover:text-accent transition-colors">

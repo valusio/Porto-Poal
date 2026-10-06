@@ -32,6 +32,7 @@ export type Profile = z.infer<typeof profileSchema>;
 
 export const projectSchema = z.object({
   slug: z.string().min(1),
+  category: z.string().optional(),
   title: z.string().min(1),
   excerpt: z.string().min(1),
   thumbnail: z.string(),

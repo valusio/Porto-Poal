@@ -1,6 +1,7 @@
 [
   {
     "slug": "sippak",
+    "category": "Contract",
     "title": "SIPPAK: Enterprise Personnel Information System",
     "excerpt": "Enterprise personnel management system for the West Sumatra Provincial Government, digitizing administrative workflows for the Governor's Office.",
     "thumbnail": "/proof/SIPPAK-Tumbnail.webp",
@@ -27,6 +28,7 @@
   },
   {
     "slug": "nagari-creative-hub",
+    "category": "Contract",
     "title": "Nagari Creative Hub (NCH) Panti Selatan: Rural MSME Digitalization Platform",
     "excerpt": "Full-stack platform for Panti Selatan village, a strategic initiative championed by the Vice Governor of West Sumatra.",
     "thumbnail": "/proof/NCH - Tumbnail.webp",
@@ -52,6 +54,7 @@
   },
   {
     "slug": "bps-chatbot",
+    "category": "Contract",
     "title": "NIPAD: AI-Powered PST Chatbot (Badan Pusat Statistik Kota Padang)",
     "excerpt": "AI-powered WhatsApp chatbot for Badan Pusat Statistik (BPS) Kota Padang with zero-hallucination architecture.",
     "thumbnail": "/proof/NIPAD-Tumbnial.webp",
@@ -80,6 +83,7 @@
   },
   {
     "slug": "diabetica",
+    "category": "Research (Competition)",
     "title": "Smartglucosense (Diabetica): AI-Powered IoT Health Management System (Prototype)",
     "excerpt": "AI-powered health management application with predictive ML models, earning a Silver Medal at the World Health Competition.",
     "thumbnail": "/proof/Glucosense - Tumbnail.webp",
@@ -108,6 +112,7 @@
   },
   {
     "slug": "wice-ecommerce",
+    "category": "Research (Competition)",
     "title": "KOMIKSI: Literacy Comic-Based MSME Packaging Platform",
     "excerpt": "Architected and deployed a production-ready e-commerce platform, earning a Gold Medal at WICE Malaysia and national representation at PIMNAS.",
     "thumbnail": "/proof/WICE - Tumbnail.webp",

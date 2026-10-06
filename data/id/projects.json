@@ -1,6 +1,7 @@
 [
   {
     "slug": "sippak",
+    "category": "Kontrak",
     "title": "SIPPAK: Sistem Informasi Kepegawaian Enterprise",
     "excerpt": "Sistem manajemen kepegawaian enterprise untuk Pemerintah Provinsi Sumatera Barat, mendigitalisasi alur kerja administratif untuk Kantor Gubernur.",
     "thumbnail": "/proof/SIPPAK-Tumbnail.webp",
@@ -27,6 +28,7 @@
   },
   {
     "slug": "nagari-creative-hub",
+    "category": "Kontrak",
     "title": "Nagari Creative Hub (NCH) Panti Selatan: Platform Digitalisasi UMKM Pedesaan",
     "excerpt": "Platform full-stack untuk Desa Panti Selatan, sebuah inisiatif strategis yang didukung oleh Wakil Gubernur Sumatera Barat.",
     "thumbnail": "/proof/NCH - Tumbnail.webp",
@@ -52,6 +54,7 @@
   },
   {
     "slug": "bps-chatbot",
+    "category": "Kontrak",
     "title": "NIPAD: Chatbot PST Berbasis AI (Badan Pusat Statistik Kota Padang)",
     "excerpt": "Chatbot WhatsApp berbasis AI untuk Badan Pusat Statistik (BPS) Kota Padang dengan arsitektur tanpa halusinasi.",
     "thumbnail": "/proof/NIPAD-Tumbnial.webp",
@@ -80,6 +83,7 @@
   },
   {
     "slug": "diabetica",
+    "category": "Research (Lomba)",
     "title": "Smartglucosense (Diabetica): Sistem Manajemen Kesehatan IoT Berbasis AI (Prototipe)",
     "excerpt": "Aplikasi manajemen kesehatan berbasis AI dengan model ML prediktif, meraih Medali Perak di World Health Competition.",
     "thumbnail": "/proof/Glucosense - Tumbnail.webp",
@@ -108,6 +112,7 @@
   },
   {
     "slug": "wice-ecommerce",
+    "category": "Research (Lomba)",
     "title": "KOMIKSI: Platform Pengemasan UMKM Berbasis Komik Literasi",
     "excerpt": "Mengarsiteki dan meluncurkan platform e-commerce siap produksi, meraih Medali Emas di WICE Malaysia dan perwakilan nasional di PIMNAS.",
     "thumbnail": "/proof/WICE - Tumbnail.webp",
