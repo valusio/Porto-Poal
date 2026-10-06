@@ -32,6 +32,9 @@ export function Achievements({ lang }: { lang: Locale }) {
                     <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
                       <div className="flex items-center flex-wrap gap-3">
                         <h4 className="font-bold text-foreground">{award.title}</h4>
+                        <span className="rounded-full bg-accent/10 border border-accent/20 px-2.5 py-0.5 text-xs font-medium text-accent">
+                          {award.category}
+                        </span>
                         {award.link && (
                           <a href={award.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs font-medium text-accent hover:underline">
                             Penghargaan dari Unand
