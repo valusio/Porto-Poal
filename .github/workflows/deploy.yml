@@ -37,5 +37,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
           server-dir: ./public_html/
+          dangerous-clean-slate: true
           # Hati-hati: server-dir harus disesuaikan dengan struktur folder di FTP lu. 
           # Kadang Hostinger pakai ./domains/domainlu.com/public_html/
