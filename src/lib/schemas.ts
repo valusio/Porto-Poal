@@ -56,6 +56,7 @@ export type Project = z.infer<typeof projectSchema>;
 export const experienceSchema = z.object({
   id: z.string().min(1),
   role: z.string().min(1),
+  employmentType: z.string().optional(),
   organization: z.string().min(1),
   startDate: z.string(),
   endDate: z.string(),

@@ -1,7 +1,8 @@
 [
   {
     "id": "exp-nch",
-    "role": "Full-Stack Developer (Kontrak)",
+    "role": "Full-Stack Developer",
+    "employmentType": "Kontrak",
     "organization": "Nagari Panti Selatan, Kab. Pasaman, Sumatera Barat",
     "startDate": "2026-05",
     "endDate": "2026-08",
@@ -18,7 +19,8 @@
   },
   {
     "id": "exp-bps",
-    "role": "AI & Automation Engineer (Kontrak)",
+    "role": "AI & Automation Engineer",
+    "employmentType": "Kontrak",
     "organization": "Badan Pusat Statistik (BPS) Kota Padang",
     "startDate": "2026-01",
     "endDate": "2026-03",
@@ -35,7 +37,8 @@
   },
   {
     "id": "exp-sippak",
-    "role": "Project Manager, Business Analyst, & Frontend Developer (Kontrak)",
+    "role": "Project Manager, Business Analyst, & Frontend Developer",
+    "employmentType": "Kontrak",
     "organization": "Kantor Gubernur Sumatera Barat, Kota Padang",
     "startDate": "2024-02",
     "endDate": "2024-12",

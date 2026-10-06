@@ -34,7 +34,14 @@ export function TimelineItem({ experience }: TimelineItemProps) {
           {/* Timeline node - desktop only */}
           <div className="hidden md:absolute md:-left-[25px] md:top-6 md:block md:h-4 md:w-4 md:rounded-full md:border-2 md:border-background md:bg-accent md:ring-1 md:ring-border" />
           
-          <h3 className="mb-2 text-xl font-bold text-foreground">{experience.role}</h3>
+          <div className="mb-2 flex flex-wrap items-center gap-3">
+            <h3 className="text-xl font-bold text-foreground">{experience.role}</h3>
+            {experience.employmentType && (
+              <span className="inline-flex items-center rounded-full border border-accent/30 bg-accent/10 px-3 py-0.5 text-xs font-semibold uppercase tracking-wide text-accent">
+                {experience.employmentType}
+              </span>
+            )}
+          </div>
           <p className="mb-4 text-sm text-muted-foreground">{experience.description}</p>
           
           <ul className="mb-4 space-y-2">
