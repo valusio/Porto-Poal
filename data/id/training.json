@@ -54,5 +54,45 @@
     "description": "Fondasi komprehensif dan implementasi praktis alat AI generatif mutakhir dan alur kerja perusahaan.",
     "link": "/certificates/ai-mastery.pdf",
     "proofIds": []
+  },
+  {
+    "title": "Spec-Driven Development dengan Kiro",
+    "provider": "Dicoding Indonesia",
+    "startDate": "2026-10",
+    "endDate": "2029-10",
+    "credentialId": "JMZVL41MOXN9",
+    "description": "Menerapkan siklus Spec-Driven Development (Requirements, Design, hingga Implementasi Task) menggunakan Kiro untuk membangun fitur aplikasi berbantuan AI yang lengkap dan terdokumentasi.",
+    "link": "/certificates/dicoding-spec-driven-kiro.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Belajar Dasar Cloud dan Gen AI di AWS",
+    "provider": "Dicoding Indonesia",
+    "startDate": "2026-10",
+    "endDate": "2029-10",
+    "credentialId": "72ZDM072QZYW",
+    "description": "Memahami layanan AWS Cloud (EC2, S3, DynamoDB, IAM, CloudWatch), infrastruktur global, model harga, Well-Architected Framework, serta dasar AI dan generative AI di AWS.",
+    "link": "/certificates/dicoding-aws-cloud-genai.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Memulai Pemrograman dengan Python",
+    "provider": "Dicoding Indonesia",
+    "startDate": "2026-10",
+    "endDate": "2029-10",
+    "credentialId": "KEXLMYL2YZG2",
+    "description": "Dasar pemrograman Python sesuai standar industri: struktur data, control flow, OOP, PEP8, unit testing, hingga library populer untuk data dan web.",
+    "link": "/certificates/dicoding-python.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Belajar Machine Learning untuk Pemula",
+    "provider": "Dicoding Indonesia",
+    "startDate": "2026-10",
+    "endDate": "2029-10",
+    "credentialId": "MRZMVYL63ZYQ",
+    "description": "Membangun model machine learning untuk klasifikasi, regresi, dan clustering pada data tabular, termasuk feature engineering dan hyperparameter tuning.",
+    "link": "/certificates/dicoding-machine-learning-pemula.pdf",
+    "proofIds": []
   }
 ]

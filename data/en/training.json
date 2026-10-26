@@ -54,5 +54,45 @@
     "description": "Comprehensive foundation and practical implementation of cutting-edge generative AI tools and enterprise workflows.",
     "link": "/certificates/ai-mastery.pdf",
     "proofIds": []
+  },
+  {
+    "title": "Spec-Driven Development with Kiro",
+    "provider": "Dicoding Indonesia",
+    "startDate": "2026-10",
+    "endDate": "2029-10",
+    "credentialId": "JMZVL41MOXN9",
+    "description": "Applying the Spec-Driven Development cycle (Requirements, Design, Task Implementation) with Kiro to build complete, well-documented AI-assisted application features.",
+    "link": "/certificates/dicoding-spec-driven-kiro.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Cloud and Gen AI Fundamentals on AWS",
+    "provider": "Dicoding Indonesia",
+    "startDate": "2026-10",
+    "endDate": "2029-10",
+    "credentialId": "72ZDM072QZYW",
+    "description": "Understanding AWS Cloud services (EC2, S3, DynamoDB, IAM, CloudWatch), global infrastructure, pricing, the Well-Architected Framework, and AI/generative AI fundamentals on AWS.",
+    "link": "/certificates/dicoding-aws-cloud-genai.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Getting Started with Python Programming",
+    "provider": "Dicoding Indonesia",
+    "startDate": "2026-10",
+    "endDate": "2029-10",
+    "credentialId": "KEXLMYL2YZG2",
+    "description": "Industry-standard Python fundamentals: data structures, control flow, OOP, PEP8, unit testing, and popular libraries for data and web development.",
+    "link": "/certificates/dicoding-python.pdf",
+    "proofIds": []
+  },
+  {
+    "title": "Machine Learning for Beginners",
+    "provider": "Dicoding Indonesia",
+    "startDate": "2026-10",
+    "endDate": "2029-10",
+    "credentialId": "MRZMVYL63ZYQ",
+    "description": "Building machine learning models for classification, regression, and clustering on tabular data, including feature engineering and hyperparameter tuning.",
+    "link": "/certificates/dicoding-machine-learning-pemula.pdf",
+    "proofIds": []
   }
 ]
