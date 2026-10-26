@@ -16,6 +16,16 @@
     "proofIds": []
   },
   {
+    "title": "Data Analyst Training",
+    "provider": "Mita Training x Mita Institute",
+    "startDate": "2026-10",
+    "endDate": "2028-10",
+    "credentialId": "B00078/MI02/MIB/2026/000018",
+    "description": "SKKNI-based training (Minister of Manpower Decree No. 299/2020), AI field – Data Science: requirements analysis, data collection, exploration & validation, Business Intelligence, and analytical reporting.",
+    "link": "/certificates/sertifikat-data-analis-mita.pdf",
+    "proofIds": []
+  },
+  {
     "title": "Claude Advanced Workflows",
     "provider": "Tixu.ai",
     "startDate": "2026-10",
