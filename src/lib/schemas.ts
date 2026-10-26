@@ -5,6 +5,7 @@ import { z } from "zod";
 export const socialSchema = z.object({
   github: z.string(),
   jobstreet: z.string(),
+  linkedin: z.string().optional(),
   portfolio: z.string().url(),
 });
 

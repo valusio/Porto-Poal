@@ -11,8 +11,8 @@ export function JsonLd({ lang }: { lang: Locale }) {
     jobTitle: "Full-Stack Engineer",
     url: SITE_CONFIG.url,
     image: `${SITE_CONFIG.url}${profile.photo}`,
-    sameAs: [profile.socials.github, profile.socials.jobstreet].filter(
-      (url) => url && !url.includes("[TODO")
+    sameAs: [profile.socials.github, profile.socials.jobstreet, profile.socials.linkedin].filter(
+      (url): url is string => Boolean(url && !url.includes("[TODO"))
     ),
     email: profile.email,
     address: {

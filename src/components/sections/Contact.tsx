@@ -3,7 +3,7 @@ import { SECTIONS } from "@/lib/constants";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { AnimateOnScroll } from "@/components/shared/AnimateOnScroll";
 import { ContactForm } from "@/components/shared/ContactForm";
-import { Mail, Code2, Globe, ExternalLink } from "lucide-react";
+import { Mail, Code2, Globe, Linkedin, ExternalLink } from "lucide-react";
 
 export function Contact({ lang }: { lang: Locale }) {
   const profile = getProfile(lang);
@@ -37,6 +37,25 @@ export function Contact({ lang }: { lang: Locale }) {
                     </a>
                   </div>
                 </li>
+                {profile.socials.linkedin && (
+                  <li className="flex items-start gap-4">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent/10">
+                      <Linkedin className="h-5 w-5 text-accent" />
+                    </div>
+                    <div>
+                      <span className="block text-sm font-medium text-foreground">LinkedIn</span>
+                      <a
+                        href={profile.socials.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-muted-foreground hover:text-accent transition-colors"
+                      >
+                        View LinkedIn Profile
+                        <ExternalLink className="ml-1.5 h-3.5 w-3.5" />
+                      </a>
+                    </div>
+                  </li>
+                )}
                 <li className="flex items-start gap-4">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent/10">
                     <Globe className="h-5 w-5 text-accent" />

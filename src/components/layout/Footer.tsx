@@ -19,6 +19,16 @@ export function Footer({ lang }: { lang: Locale }) {
           >
             GitHub
           </a>
+          {profile.socials.linkedin && (
+            <a
+              href={profile.socials.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors"
+            >
+              LinkedIn
+            </a>
+          )}
           <a
             href={profile.socials.jobstreet}
             target="_blank"
