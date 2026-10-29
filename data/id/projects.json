@@ -27,32 +27,6 @@
     "order": 1
   },
   {
-    "slug": "nagari-creative-hub",
-    "category": "Kontrak",
-    "title": "Nagari Creative Hub (NCH) Panti Selatan: Platform Digitalisasi UMKM Pedesaan",
-    "excerpt": "Platform full-stack untuk Desa Panti Selatan, sebuah inisiatif strategis yang didukung oleh Wakil Gubernur Sumatera Barat.",
-    "thumbnail": "/proof/NCH - Tumbnail.webp",
-    "problem": "Usaha Mikro, Kecil, dan Menengah (UMKM) di daerah pedesaan seperti Nagari Panti Selatan menderita defisit visibilitas karena kurangnya infrastruktur digital terpusat, yang sangat membatasi jangkauan pasar dan menekan potensi ekonomi lokal. Merespons inisiatif strategis dari Wakil Gubernur Sumatera Barat, terdapat urgensi teknis untuk merekayasa platform direktori pintar yang tidak hanya mengindeks potensi UMKM tetapi juga dioptimalkan untuk SEO agar mudah diakuisisi oleh mesin pencari. Tantangan utamanya adalah merancang ekosistem perangkat lunak yang berpusat pada pengguna, di mana pemilik UMKM memegang otonomi penuh atas entitas data mereka tanpa bergantung pada intervensi teknis berkelanjutan dari pengembang.",
-    "role": "Full-Stack Developer",
-    "architecture": "Pengembangan sistem dieksekusi dari awal hingga akhir, mencakup seluruh siklus hidup dari konseptualisasi hingga peluncuran produksi. Logika aplikasi dan antarmuka Content Management System (CMS) direkayasa menggunakan ekosistem PHP dengan kerangka kerja Filament, didukung oleh kapabilitas relasional MySQL. Arsitektur otorisasi menggunakan implementasi RBAC yang kompleks, memisahkan entitas Admin (Kepala Desa/Pengelola) dari entitas Pengguna (UMKM) yang diberikan akses untuk memanipulasi dan mengatur katalog produk mereka secara mandiri. Di sisi infrastruktur, saya secara eksklusif menyediakan Virtual Private Server (VPS) Hostinger, mengonfigurasi pengaturan DNS/Domain, dan mengimplementasikan enkripsi SSL/TLS untuk memastikan integritas dan keamanan siber platform.",
-    "techStack": [
-      "PHP",
-      "Laravel (Filament)",
-      "MySQL",
-      "Hostinger VPS",
-      "SSL/TLS",
-      "SEO Optimization",
-      "Role-Based Access Control (RBAC)"
-    ],
-    "impact": "Platform NCH berhasil mendemokratisasi akses digital bagi masyarakat pedesaan dan mengubah visi strategis Wakil Gubernur menjadi produk rekayasa perangkat lunak yang sangat fungsional. Otomatisasi sistem dan tata kelola data yang terdesentralisasi (tanpa pemeliharaan lanjutan) memastikan bahwa Kepala Desa dan pemilik UMKM dapat mengoperasikan platform secara mandiri tanpa latensi operasional. Implementasi arsitektural optimasi SEO juga secara empiris telah meningkatkan keterdekatan digital produk lokal Panti Selatan.",
-    "liveUrl": "https://nchpantiselatan.ahwlab.id/",
-    "proofIds": [
-      "nch-sosialisasi-1"
-    ],
-    "featured": true,
-    "order": 2
-  },
-  {
     "slug": "bps-chatbot",
     "category": "Kontrak",
     "title": "NIPAD: Chatbot PST Berbasis AI (Badan Pusat Statistik Kota Padang)",
@@ -79,7 +53,7 @@
       "nipad-4"
     ],
     "featured": true,
-    "order": 3
+    "order": 2
   },
   {
     "slug": "diabetica",
@@ -108,7 +82,7 @@
       "diabetica-4"
     ],
     "featured": true,
-    "order": 4
+    "order": 3
   },
   {
     "slug": "wice-ecommerce",
@@ -134,7 +108,7 @@
       "wice-3"
     ],
     "featured": true,
-    "order": 5
+    "order": 4
   },
   {
     "slug": "personal-portfolio",
@@ -159,6 +133,6 @@
       "porto-1"
     ],
     "featured": true,
-    "order": 6
+    "order": 5
   }
 ]

@@ -1,13 +1,5 @@
 [
   {
-    "id": "nch-sosialisasi-1",
-    "src": "/proof/NCH.webp",
-    "alt": "Spanduk dan Dokumentasi Sosialisasi NCH",
-    "caption": "Kegiatan sosialisasi dan pelatihan platform Nagari Creative Hub (NCH) di Nagari Panti Selatan (30 Juli 2026). Program ini secara langsung mendorong digitalisasi UMKM dan kemandirian ekonomi kreatif.",
-    "section": "projects",
-    "sanitized": false
-  },
-  {
     "id": "bps-chatbot-n8n",
     "src": "/proof/NIPAD - Workflow.webp",
     "alt": "n8n Workflow Architecture for BPS Chatbot",

@@ -8,7 +8,7 @@
   "photo": "/proof/Poal.webp",
   "cv": "/cv.pdf",
   "stats": [
-    { "value": "3", "label": "Sistem Produksi" },
+    { "value": "2", "label": "Sistem Produksi" },
     { "value": "2", "label": "Medali Internasional" },
     { "value": "3.38", "label": "IPK" }
   ],

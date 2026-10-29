@@ -1,23 +1,5 @@
 [
   {
-    "id": "exp-nch",
-    "role": "Full-Stack Developer",
-    "employmentType": "Kontrak",
-    "organization": "Nagari Panti Selatan, Kab. Pasaman, Sumatera Barat",
-    "startDate": "2026-05",
-    "endDate": "2026-08",
-    "description": "Rekayasa dan implementasi dari awal hingga akhir untuk Platform Digitalisasi UMKM Pedesaan Nagari Creative Hub (NCH), sebuah inisiatif strategis yang didukung oleh Wakil Gubernur Sumatera Barat.",
-    "highlights": [
-      "Memegang tanggung jawab penuh atas siklus pengembangan perangkat lunak dari konseptualisasi hingga peluncuran produksi",
-      "Merekayasa logika aplikasi dan antarmuka CMS menggunakan ekosistem PHP (Laravel Filament) yang didukung oleh MySQL",
-      "Mengimplementasikan sistem Role-Based Access Control (RBAC) yang kompleks untuk memisahkan entitas Admin dan Pengguna UMKM",
-      "Menyediakan Hostinger VPS dengan konfigurasi DNS dan enkripsi SSL/TLS untuk peluncuran produksi yang aman",
-      "Menerapkan optimasi SEO arsitektural untuk meningkatkan keterdekatan produk lokal secara empiris di dunia digital"
-    ],
-    "relatedProjectSlug": "nagari-creative-hub",
-    "proofIds": []
-  },
-  {
     "id": "exp-bps",
     "role": "AI & Automation Engineer",
     "employmentType": "Kontrak",
