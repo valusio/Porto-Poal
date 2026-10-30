@@ -8,7 +8,7 @@
   "photo": "/proof/Poal.webp",
   "cv": "/cv.pdf",
   "stats": [
-    { "value": "2", "label": "Production Systems" },
+    { "value": "3", "label": "Production Systems" },
     { "value": "2", "label": "International Medals" },
     { "value": "3.38", "label": "GPA" }
   ],

@@ -27,6 +27,32 @@
     "order": 1
   },
   {
+    "slug": "nagari-creative-hub",
+    "category": "Contract",
+    "title": "Nagari Creative Hub (NCH) Panti Selatan: Rural MSME Digitalization Platform",
+    "excerpt": "Full-stack platform for Panti Selatan village, a strategic initiative championed by the Vice Governor of West Sumatra.",
+    "thumbnail": "/proof/NCH - Tumbnail.webp",
+    "problem": "Micro, Small, and Medium Enterprises (MSMEs) in rural areas like Nagari Panti Selatan suffer from a visibility deficit due to the lack of centralized digital infrastructure, severely limiting market reach and suppressing local economic potential. Responding to a strategic initiative from the Vice Governor of West Sumatra, there was a technical urgency to engineer a smart directory platform that not only indexes MSME potential but is also SEO-optimized for seamless search engine acquisition. The primary challenge was crafting a user-centered software ecosystem where MSME owners hold full autonomy over their data entities without relying on continuous technical intervention from developers.",
+    "role": "Full-Stack Developer",
+    "architecture": "The system development was executed end-to-end, encompassing the entire lifecycle from conceptualization to production deployment. The application logic and Content Management System (CMS) interface were engineered using the PHP ecosystem with the Filament framework, backed by MySQL's relational capabilities. The authorization architecture utilizes a complex RBAC implementation, decoupling Admin entities (Village Head/Managers) from User entities (MSMEs) who are granted access to independently manipulate and govern their product catalogs. On the infrastructure side, I exclusively provisioned a Hostinger Virtual Private Server (VPS), configured DNS/Domain settings, and implemented SSL/TLS encryption to ensure the platform's integrity and cybersecurity.",
+    "techStack": [
+      "PHP",
+      "Laravel (Filament)",
+      "MySQL",
+      "Hostinger VPS",
+      "SSL/TLS",
+      "SEO Optimization",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "impact": "The NCH platform successfully democratized digital access for the rural community and transformed the Vice Governor's strategic vision into a highly functional software engineering product. System automation and decentralized data governance (zero-maintenance handoff) ensure that both the Village Head and MSME owners can operate the platform independently with zero operational latency. The architectural implementation of SEO optimization has also empirically increased the digital discoverability of Panti Selatan's local products.",
+    "liveUrl": "https://nchpantiselatan.ahwlab.id/",
+    "proofIds": [
+      "nch-sosialisasi-1"
+    ],
+    "featured": true,
+    "order": 2
+  },
+  {
     "slug": "bps-chatbot",
     "category": "Contract",
     "title": "NIPAD: AI-Powered PST Chatbot (Badan Pusat Statistik Kota Padang)",
@@ -53,7 +79,7 @@
       "nipad-4"
     ],
     "featured": true,
-    "order": 2
+    "order": 3
   },
   {
     "slug": "diabetica",
@@ -82,7 +108,7 @@
       "diabetica-4"
     ],
     "featured": true,
-    "order": 3
+    "order": 4
   },
   {
     "slug": "wice-ecommerce",
@@ -108,7 +134,7 @@
       "wice-3"
     ],
     "featured": true,
-    "order": 4
+    "order": 5
   },
   {
     "slug": "personal-portfolio",
@@ -133,6 +159,6 @@
       "porto-1"
     ],
     "featured": true,
-    "order": 5
+    "order": 6
   }
 ]

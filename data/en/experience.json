@@ -1,5 +1,23 @@
 [
   {
+    "id": "exp-nch",
+    "role": "Full-Stack Developer",
+    "employmentType": "Contract",
+    "organization": "Nagari Panti Selatan, Kab. Pasaman, West Sumatra",
+    "startDate": "2026-05",
+    "endDate": "2026-08",
+    "description": "End-to-end engineering and implementation of the Nagari Creative Hub (NCH) Rural MSME Digitalization Platform, a strategic initiative championed by the Vice Governor of West Sumatra.",
+    "highlights": [
+      "Owned the full software development lifecycle from conceptualization to production deployment",
+      "Engineered the application logic and CMS interface using the PHP ecosystem (Laravel Filament) backed by MySQL",
+      "Implemented a complex Role-Based Access Control (RBAC) system to decouple Admin and MSME User entities",
+      "Provisioned a Hostinger VPS with DNS configuration and SSL/TLS encryption for secure production deployment",
+      "Applied architectural SEO optimizations to empirically increase the digital discoverability of local products"
+    ],
+    "relatedProjectSlug": "nagari-creative-hub",
+    "proofIds": []
+  },
+  {
     "id": "exp-bps",
     "role": "AI & Automation Engineer",
     "employmentType": "Contract",
